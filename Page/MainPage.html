@@ -1,123 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pet Rent</title>
+    <title>Travel</title>
     <link rel="stylesheet" href="MainPage.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
     <nav>
-      <div class="layar-dalam">
-        <div class="logo">
-          <a href=""><img src="../Source/img/logo.png" class="putih" /></a>
-          <a href=""><img src="../Source/img/logo.png" class="hitam" /></a>
+        <div class="layar-dalam">
+            <div class="logo">
+                <a href=""><img src="../asset/logo.jpeg" class="putih" /></a>
+                <a href=""><img src="../asset/logo.jpeg" class="hitam" /></a>
+            </div>
+            <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                </a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="menu">
-          <a href="#" class="tombol-menu">
-            <span class="garis"></span>
-            <span class="garis"></span>
-            <span class="garis"></span>
-          </a>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#support">Support</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
     <div class="layar-penuh">
-      <header id="home">
-        <div class="overlay"></div>
-        <video autoplay muted loop>
-          <source src="asset/video.mp4" type="video/mp4" />
-        </video>
-        <div class="intro">
-          <h3>PET RENT</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            officiis
-          </p>
-          <p>
-            <a href="" class="tombol">MORE INFO</a>
-          </p>
-        </div>
-      </header>
-      <main>
-        <section class="abuabu" id="blog">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="asset/video.mp4" type="video/mp4" />
+            </video>
+            <div class="intro">
+                <h3>Visit Indonesia</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                    officiis?
+                </p>
+                    <p>
+                    <form action="Reservasi.html" method="post">
+                      <button class="submit">RESERVATION</button>
+                    </form>
+                    </p>
+            </div>
+        </header>
+        <main>
+
+          <section id="list-topics" class="list-topics">
+            <div class="container">
+              <div class="list-topics-content">
+                <ul>
+                  <li>
+                    <div class="single-list-topics-content">
+                      <div class="single-list-topics-icon">
+                        <i class="flaticon-building"></i>
+                      </div>
+                      <h2><a href="#">hotels</a></h2>
+                      <p>185 listings</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="single-list-topics-content">
+                      <div class="single-list-topics-icon">
+                        <i class="flaticon-pills"></i>
+                      </div>
+                      <h2><a href="#">healthcaree</a></h2>
+                      <p>200 listings</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="single-list-topics-content">
+                      <div class="single-list-topics-icon">
+                        <i class="flaticon-transport"></i>
+                      </div>
+                      <h2><a href="#">automotion</a></h2>
+                      <p>120 listings</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div><!--/.container-->
+          </section><!--/.list-topics-->
+  
+          <section id=timeline>
+                <section class="about_section layout_padding">
+                  <div class="container">
+                    <div class="detail-box">
+                      <div class="heading_container">
+                        <div class="about_logo">
+                          <img src="../asset/logo.jpeg" alt="">
+                        </div>
+                        <h2>
+                          About Us
+                        </h2>
+                      </div>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+                        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                      </p>
+                      <div class="btn-box">
+                        <a href="">
+                          <span>
+                            Read More
+                          </span>
+                          <img src="../asset/link-arrow.png" alt="pupy">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            <div class="demo-card-wrapper">
+              <div class="demo-card demo-card--step1">
+                <div class="head">
+                  <div class="number-box">
+                    <span>01</span>
+                  </div>
+                  <h2><span class="small">Subtitle</span> Technology</h2>
+                </div>
+                <div class="body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
+                    laudantium odio dolorum laboriosam.</p>
+                  <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
+                </div>
+              </div>
+          
+              <div class="demo-card demo-card--step2">
+                <div class="head">
+                  <div class="number-box">
+                    <span>02</span>
+                  </div>
+                  <h2><span class="small">Subtitle</span> Confidence</h2>
+                </div>
+                <div class="body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
+                    laudantium odio dolorum laboriosam.</p>
+                  <img src="https://images.unsplash.com/photo-1585257489920-b35d06e3a7c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
+                </div>
+              </div>
+          
+              <div class="demo-card demo-card--step3">
+                <div class="head">
+                  <div class="number-box">
+                    <span>03</span>
+                  </div>
+                  <h2><span class="small">Subtitle</span> Adaptation</h2>
+                </div>
+                <div class="body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
+                    laudantium odio dolorum laboriosam.</p>
+                  <img src="https://images.unsplash.com/photo-1517451330947-7809dead78d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
+                </div>
+              </div>
+          
+              <div class="demo-card demo-card--step4">
+                <div class="head">
+                  <div class="number-box">
+                    <span>04</span>
+                  </div>
+                  <h2><span class="small">Subtitle</span> Consistency</h2>
+                </div>
+                <div class="body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
+                    laudantium odio dolorum laboriosam.</p>
+                  <img src="https://images.unsplash.com/photo-1516222338250-863216ce01ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
+                </div>
+              </div>
+          
+              <div class="demo-card demo-card--step5">
+                <div class="head">
+                  <div class="number-box">
+                    <span>05</span>
+                  </div>
+                  <h2><span class="small">Subtitle</span> Conversion</h2>
+                </div>
+                <div class="body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
+                    laudantium odio dolorum laboriosam.</p>
+                  <img src="https://images.unsplash.com/photo-1496284575094-d5b92db3890d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
+                </div>
+              </div>
+          </section>
+           
+            <section class="abuabu" id="blog">
+              <div class="katamutiara">
+                <h2>Kata mutiara</h2>
+                <p>“Hewan membuat kita lebih manusiawi mereka membangkitkan emosi kita dan membuka hati kita.” 
+                </p>
+                <h4 a="right">-Temple GRANDIN</h4>
+              </div>
+                
+               
+                  <h2 class="penName">Our Services</h2>
+                  <h1 class="display-4 m-0"><span class="text-primary">Premium</span> Pet Services</h1>
+                    <div class="mainCardHeader"></div>
+                    <div class="mainCardContent">
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                        <div class="tex">
+                          <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet Boarding</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                              <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                            </article>
+                        </div>
+                      </div>
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                      <div class="tex">
+                        <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet feeding</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                            </article>
+                            </div>
+                            </div>
+                      <div class="miniCard">
+                      <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                      <div class="tex">
+                        <article>
+                        <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                        <h3 class="mb-3">Pet treatment</h3>
+                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                          ipsum justo</p>
+                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                        </article>
+                      </div>
+                    </div>
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                        <div class="tex">
+                          <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet groming</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                        <div class="tex">
+                          <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet Boarding</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                        <div class="tex">
+                          <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet Boarding</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="miniCard">
+                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
+                        <div class="tex">
+                          <article>
+                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
+                            <h3 class="mb-3">Pet Boarding</h3>
+                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
+                              ipsum justo</p>
+                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+            </section>
+                  
+           
+        <footer id="contact">
           <div class="layar-dalam">
-            <div class="blog">
-              <div class="area">
-                <div
-                  class="gambar"
-                  style="background-image: url('asset/exmpl.jpg')"
-                ></div>
-                <div class="text">
-                  <article>
-                    <h4><a href="#">Kalimantan</a></h4>
-                    <p>
-                     Kami baru saja membuka cabang baru di Kalimantan. Cabang Pertama kami di Kalimantan Selatan.
-                    </p>
-                  </article>
-                </div>
-              </div>
-              <div class="area">
-                <div
-                  class="gambar"
-                  style="background-image: url('asset/exmpl.jpg')"
-                ></div>
-                <div class="text">
-                  <article>
-                    <h4><a href="#">Jawa</a></h4>
-                    <p>
-                      Di Jawa kami memiliki banyak cabang, salah satunya yang paling banyak adalah di Jawa Timur.
-                    </p>
-                  </article>
-                </div>
-              </div>
+            <div>
+              <h5>Info</h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+              sunt?
+            </div>
+            <div>
+              <h5>Contact</h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+              sunt?
+            </div>
+            <div>
+              <h5>Help</h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+              sunt?
+            </div>
+            <div>
+              <h5>Sitemap</h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+              sunt?
             </div>
           </div>
-        </section>
-      </main>
-      <footer id="contact">
-        <div class="layar-dalam">
-          <div>
-            <h5>Info</h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-            sunt?
-          </div>
-          <div>
-            <h5>Contact</h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-            sunt?
-          </div>
-          <div>
-            <h5>Help</h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-            sunt?
-          </div>
-          <div>
-            <h5>Sitemap</h5>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-            sunt?
-          </div>
-        </div>
-        <div class="layar-dalam">
-          <div class="copyright">&copy; 2021 Travelling Indonesia</div>
-        </div>
-      </footer>
+            <div class="layar-dalam">
+                <div class="copyright">&copy; 2021 Travelling Indonesia</div>
+            </div>
+        </footer>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
+<script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="javascript.js"></script>
-  </body>
+</body>
+
 </html>
+
+
+
