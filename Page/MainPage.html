@@ -1,331 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel</title>
-    <link rel="stylesheet" href="MainPage.css" />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Rent</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../Style/MainPage.css">
+  <link rel="icon" href="../Source/PetRent.png">
 </head>
 <body>
-    <nav>
-        <div class="layar-dalam">
-            <div class="logo">
-                <a href=""><img src="../asset/logo.jpeg" class="putih" /></a>
-                <a href=""><img src="../asset/logo.jpeg" class="hitam" /></a>
-            </div>
-            <div class="menu">
-                <a href="#" class="tombol-menu">
-                    <span class="garis"></span>
-                    <span class="garis"></span>
-                    <span class="garis"></span>
-                </a>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#support">Support</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="layar-penuh">
-        <header id="home">
-            <div class="overlay"></div>
-            <video autoplay muted loop>
-                <source src="asset/video.mp4" type="video/mp4" />
-            </video>
-            <div class="intro">
-                <h3>Visit Indonesia</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                    officiis?
-                </p>
-                    <p>
-                    <form action="Reservasi.html" method="post">
-                      <button class="submit">RESERVATION</button>
-                    </form>
-                    </p>
-            </div>
-        </header>
-        <main>
+<!-- Header Section -->
+<header class="header">
+  <div class="logo">
+    <a href="#" class="logo"><i class="fas fa-cat"></i>Pet Rent</a>
+  </div>
+  <nav class="navbar" id="navbar">
+    <a href="#home" name="home">Home</a>
+    <a href="#categories" name="about-us">Products</a>
+    <a href="#Team" name="Team">Team</a>
+    <a href="#contact" name="contact">Contact</a>
+  </nav>
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <a class="fas fa-user" href="registrasi.html" id="login-btn"></a>
+  </div>
+  <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="Cari apa sayang...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+</header>
+<!-- Header Section -->
 
-          <section id="list-topics" class="list-topics">
-            <div class="container">
-              <div class="list-topics-content">
-                <ul>
-                  <li>
-                    <div class="single-list-topics-content">
-                      <div class="single-list-topics-icon">
-                        <i class="flaticon-building"></i>
-                      </div>
-                      <h2><a href="#">hotels</a></h2>
-                      <p>185 listings</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="single-list-topics-content">
-                      <div class="single-list-topics-icon">
-                        <i class="flaticon-pills"></i>
-                      </div>
-                      <h2><a href="#">healthcaree</a></h2>
-                      <p>200 listings</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="single-list-topics-content">
-                      <div class="single-list-topics-icon">
-                        <i class="flaticon-transport"></i>
-                      </div>
-                      <h2><a href="#">automotion</a></h2>
-                      <p>120 listings</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div><!--/.container-->
-          </section><!--/.list-topics-->
-  
-          <section id=timeline>
-                <section class="about_section layout_padding">
-                  <div class="container">
-                    <div class="detail-box">
-                      <div class="heading_container">
-                        <div class="about_logo">
-                          <img src="../asset/logo.jpeg" alt="">
-                        </div>
-                        <h2>
-                          About Us
-                        </h2>
-                      </div>
-                      <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-                        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                      </p>
-                      <div class="btn-box">
-                        <a href="">
-                          <span>
-                            Read More
-                          </span>
-                          <img src="../asset/link-arrow.png" alt="pupy">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-            <div class="demo-card-wrapper">
-              <div class="demo-card demo-card--step1">
-                <div class="head">
-                  <div class="number-box">
-                    <span>01</span>
-                  </div>
-                  <h2><span class="small">Subtitle</span> Technology</h2>
-                </div>
-                <div class="body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
-                    laudantium odio dolorum laboriosam.</p>
-                  <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
-                </div>
-              </div>
-          
-              <div class="demo-card demo-card--step2">
-                <div class="head">
-                  <div class="number-box">
-                    <span>02</span>
-                  </div>
-                  <h2><span class="small">Subtitle</span> Confidence</h2>
-                </div>
-                <div class="body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
-                    laudantium odio dolorum laboriosam.</p>
-                  <img src="https://images.unsplash.com/photo-1585257489920-b35d06e3a7c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
-                </div>
-              </div>
-          
-              <div class="demo-card demo-card--step3">
-                <div class="head">
-                  <div class="number-box">
-                    <span>03</span>
-                  </div>
-                  <h2><span class="small">Subtitle</span> Adaptation</h2>
-                </div>
-                <div class="body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
-                    laudantium odio dolorum laboriosam.</p>
-                  <img src="https://images.unsplash.com/photo-1517451330947-7809dead78d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
-                </div>
-              </div>
-          
-              <div class="demo-card demo-card--step4">
-                <div class="head">
-                  <div class="number-box">
-                    <span>04</span>
-                  </div>
-                  <h2><span class="small">Subtitle</span> Consistency</h2>
-                </div>
-                <div class="body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
-                    laudantium odio dolorum laboriosam.</p>
-                  <img src="https://images.unsplash.com/photo-1516222338250-863216ce01ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
-                </div>
-              </div>
-          
-              <div class="demo-card demo-card--step5">
-                <div class="head">
-                  <div class="number-box">
-                    <span>05</span>
-                  </div>
-                  <h2><span class="small">Subtitle</span> Conversion</h2>
-                </div>
-                <div class="body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur,
-                    laudantium odio dolorum laboriosam.</p>
-                  <img src="https://images.unsplash.com/photo-1496284575094-d5b92db3890d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Graphic">
-                </div>
-              </div>
-          </section>
-           
-            <section class="abuabu" id="blog">
-              <div class="katamutiara">
-                <h2>Kata mutiara</h2>
-                <p>“Hewan membuat kita lebih manusiawi mereka membangkitkan emosi kita dan membuka hati kita.” 
-                </p>
-                <h4 a="right">-Temple GRANDIN</h4>
-              </div>
-                
-               
-                  <h2 class="penName">Our Services</h2>
-                  <h1 class="display-4 m-0"><span class="text-primary">Premium</span> Pet Services</h1>
-                    <div class="mainCardHeader"></div>
-                    <div class="mainCardContent">
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                        <div class="tex">
-                          <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet Boarding</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                              <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                            </article>
-                        </div>
-                      </div>
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                      <div class="tex">
-                        <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet feeding</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                            </article>
-                            </div>
-                            </div>
-                      <div class="miniCard">
-                      <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                      <div class="tex">
-                        <article>
-                        <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                        <h3 class="mb-3">Pet treatment</h3>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                          ipsum justo</p>
-                        <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                        </article>
-                      </div>
-                    </div>
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                        <div class="tex">
-                          <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet groming</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                          </article>
-                        </div>
-                      </div>
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                        <div class="tex">
-                          <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet Boarding</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                          </article>
-                        </div>
-                      </div>
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                        <div class="tex">
-                          <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet Boarding</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                          </article>
-                        </div>
-                      </div>
-                      <div class="miniCard">
-                        <div class="pic" style="background-image: url('asset/exmpl.jpg')"></div>
-                        <div class="tex">
-                          <article>
-                            <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
-                            <h3 class="mb-3">Pet Boarding</h3>
-                            <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet
-                              ipsum justo</p>
-                            <a class="text-uppercase font-weight-bold" href="">Read More</a>
-                          </article>
-                        </div>
-                      </div>
-                    </div>
-            </section>
-                  
-           
-        <footer id="contact">
-          <div class="layar-dalam">
-            <div>
-              <h5>Info</h5>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-              sunt?
-            </div>
-            <div>
-              <h5>Contact</h5>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-              sunt?
-            </div>
-            <div>
-              <h5>Help</h5>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-              sunt?
-            </div>
-            <div>
-              <h5>Sitemap</h5>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
-              sunt?
-            </div>
-          </div>
-            <div class="layar-dalam">
-                <div class="copyright">&copy; 2021 Travelling Indonesia</div>
-            </div>
-        </footer>
+<!-- Home Section -->
+<section class="home" id="home">
+
+    <div class="content">
+      <h3>Nice hotel and <span>best</span> treatment for your Pet</h3>
+      <p>Penginapan kami dilengkapi dengan fasilitas terbaik untuk memastikan pengalaman yang nyaman bagi hewan peliharaan dan pemiliknya. 
+        Kamar-kamar bersih dan nyaman, area bermain yang luas, serta program perawatan khusus untuk kebutuhan
+         individual hewan peliharaan, semuanya dirancang untuk menciptakan lingkungan yang setara dengan rumah.
+      </p>
+      <<a href="Registrasi.html" class="btn">Reservation Now</a>
     </div>
-<script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
+
+</section>
+
+<!-- Home Section -->
+
+<!-- Categories Section -->
+<section class="categories" id="categories">
+
+  <h1 class="heading"> Our <span>Hotel</span> </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="../Source/home.gif" alt="">
+      <h3>Basic Accomodation</h3>
+      <p>Memberikan makanan berkualitas,
+        menyediakan air bersih, bak pasir bersih secara teratur, banyak mainan, dan memberikan perhatian serta kasih sayang</p>
+    </div>
+
+    <div class="box">
+      <img src="../Source/hotel.gif" alt="">
+      <h3>Moderate Accomodation</h3>
+      <p>Seluruh Fasilitas Paket Basic, dan Perawatan kebersihan bulu, memberikan vaksinasi yang tepat, serta melibatkan mereka dalam aktivitas olahraga.</p>
+    </div>
+
+    <div class="box">
+      <img src="../Source/castle.gif" alt="">
+      <h3>Luxury Accomodation</h3>
+      <p>Makanan seimbang, kegiatan fisik, dan perhatian penuh. Perawatan melibatkan menjaga kebersihan bulu, memberikan vaksinasi yang tepat, serta melibatkan mereka dalam aktivitas olahraga dan interaksi sosial</p>
+    </div>
+  </div>
+
+</section>
+<!--Categories Section-->
+
+<!-- Features Section -->
+
+<section class="features" id="about-us">
+
+  <h1 class="heading"> Our <span>Features</span></h1>
+  
+  <div class="box-container">
+    <div class="box">
+      <img src="../Source/cat-food.gif" alt="">
+      <h3>Food Quality</h3>
+      <p>Kami menganggap makanan sebagai kunci untuk kesehatan dan kebahagiaan hewan peliharaan anda. Kami menyajikan makanan berkualitas tinggi dengan bahan-bahan pilihan yang dirancang untuk memenuhi kebutuhan nutrisi dan kelezatan. Menu kami disesuaikan dengan preferensi dan persyaratan diet khusus, menjamin bahwa setiap tamu di Pet Rent mendapatkan pengalaman kuliner yang istimewa.</p>
+      <a href="Makanan.html" class="btn">Detail Makanan</a>
+  </div>
+
+  <div class="box">
+      <img src="../Source/shampoo.gif" alt="">
+      <h3>Clean and Care</h3>
+      <p>Kebersihan adalah fondasi dari lingkungan yang sehat dan aman. Di Pet Rent, kami menjaga standar kebersihan tertinggi di setiap sudut penginapan. Rutin melakukan pembersihan dan sanitasi menyeluruh, kami berkomitmen untuk menciptakan lingkungan yang bebas dari kuman dan aman untuk bermain. Ruangan yang bersih dan segar adalah jaminan kami untuk kesejahteraan hewan peliharaan anda.</p>
+  </div>
+
+  <div class="box">
+    <img src="../Source/veterinary.gif" alt="">
+    <h3>Best Safety</h3>
+    <p>Keamanan hewan peliharaan adalah prioritas utama kami di Pet Rent. Fasilitas kami dilengkapi dengan sistem keamanan canggih, dan setiap kandang dirancang untuk mencegah risiko cedera atau kejadian tidak diinginkan. Tim keamanan kami selalu siaga 24/7, memberikan kepastian bahwa hewan peliharaan anda berada dalam lingkungan yang aman dan terjaga.</p>
+</div>
+
+<div class="box">
+    <img src="../Source/tech-support.gif" alt="">
+    <h3>Good Service</h3>
+    <p>Pelayanan ramah dan penuh perhatian adalah tanda khas Pet Rent. Tim kami terlatih dengan baik dan selalu siap memberikan perhatian personal kepada setiap hewan peliharaan. Kami menyediakan pelayanan yang dapat dipercaya dan terbaik untuk memastikan setiap tamu memiliki pengalaman yang tak terlupakan selama menginap di Pet Rent.</p>
+</div>
+  </div>
+
+</section>
+
+<!-- Features Section -->
+
+<!--products section starts  -->
+
+<section class="products" id="products">
+  <h1 class="heading"> our <span>Products</span> </h1>
+  <div class="swiper product-slider">
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide box">
+              <img src="../Source//protection.gif" alt="">
+              <h3>Healthy Care Treatment</h3>
+              <p>Treatment grooming menggunakan shampoo dan conditioner premium, perapian bulu
+                  area paw dan bokong, pembersihan telinga, gunting kuku
+              dan pemberian parfum berkualitas </p>
+              <div class="price"> 60.000 </div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="../Source/mushrooms.gif" alt="">
+              <h3>Fungus Care Treatmet</h3>
+              <p>Treatment grooming menggunakan shampoo anti-jamur premium yang difokuskan 
+                  untuk pegobatan jamur pada kulit, perapian bulu area paw dan bokong, 
+                  pembersihan telinga, gunting kuku dan pemberian parfum berkualitas
+              </p>
+              <div class="price"> 80.000 </div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="../Source/beetle.gif" alt="">
+              <h3>Flea & Tick Treatment</h3>
+              <p>Treatmet grooming menggunakan shampoo anti-kutu premium yang difokuskan untuk pegobatan parasit
+                  seperti kutu, perapian bulu area paw dan bokong, pembersihan telinga, gunting kuku
+              dan pemberian parfum berkualitas
+              </p>
+              <div class="price">80.000</div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="../Source/soap.gif" alt="">
+              <h3>Full Bath Treatment</h3>
+              <p>
+                  Treatmet grooming menggunakan shampoo anti-kutu dan anti-jamur premium yang difokuskan untuk pegobatan parasit seperti kutu dan jamur, perapian bulu area paw dan bokong, pembersihan telinga, gunting kuku.</p>
+              <div class="price">99.000</div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="../Source/bath-glove.gif" alt="">
+              <h3>Extra Charge</h3>
+              <p>
+                  Extra charge akan dikenakan untuk kucing yang agresif/galak. 
+                  Groomer akan memberikan penanganan khusus menggunakan alat-alat khusus yang dilakukan sebaik mungkin agar anabul tidak stress pasca grooming
+              </p>
+              <div class="price">20.000</div>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--products section ends  -->
+
+<!-- our teams start -->
+<section class="products" id="Team">
+  <h1 class="heading"> our <span>Team</span> </h1>
+  <div class="swiper product-slider">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Rania.jpg">
+        <h3>Rania Naura</h3>
+        <div class="price"> Front-end</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Erfina.jpg">
+        <h3>Erfina Nur</h3>
+        <div class="price"> Front-end</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Olin.jpg">
+        <h3>Izzati Olinda</h3>
+        <div class="price"> Front-end</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Fawwas.jpg">
+        <h3>Fawwas Shafiq</h3>
+        <div class="price"> Leader</div> <!--anjay-->
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Ruhul.jpg">
+        <h3>Ruhul Mala</h3>
+        <div class="price"> Back-end</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Alvaro.jpg">
+        <h3>Alvaro Naufal</h3>
+        <div class="price"> Back-end</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="../Source/Anggota/Salwa.jpg">
+        <h3>Cut Salwa</h3>
+        <div class="price"> Quality Assurance</div>
+        <div class="stars">
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+          <div class="fas fa-star"></div>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- our team ends -->
+
+<!-- footer sections starts -->
+<section class="footer" id="contact">
+  <div class="box-container">
+    <div class="box">
+      <h3>pet rent <i class="fas fa-cat"></i></h3>
+      <p>
+        Connect with us on your favorite social platforms. We'd love to hear from you!
+      </p>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#" class="links">
+        <i class="fas fa-phone"></i>+62 14045 14022</a
+      >
+      <a href="#" class="links">
+        <i class="fas fa-envelope"></i>contact@petrent.com</a
+      >
+    </div>
+    <div class="box">
+      <h3>Alamat</h3>
+      <a href="#" class="links">
+        <i class="fas fa-map-marker-alt"></i>Jakarta, Indonesia - 201344</a>
+      <img src="image/payment.jpg" class="payment-img" alt="" />
+    </div>
+  <!-- <div>
+    <div class="credit">created by <span>Pet Rent Team</span> | all right reserved</div>
+  </div> -->
+</section>
+<!-- footer sections ends -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../Script/MainPage.js"></script>
 </body>
-
 </html>
-
-
-

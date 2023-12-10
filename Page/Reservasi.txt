@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Reservasi.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="../asset/logo.jpeg" alt="" width="100" height="100">
+    </div>
+    <h1>PETRENT</h1>
+  </header>
+
+  <section>
+    <form action="Registrasi.html" method="post">
+      <label for="petType">Select Pet Type:</label>
+      <select id="petType" name="petType">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+      </select>
+
+      <label for="layanan">Layanan:</label>
+      <select id="layanan" name="layanan">
+        <option value="hotel">Hotel</option>
+        <option value="perawatan hewan">Perawatan hewan</option>
+        <option value="klinik">Klinik</option>
+        <option value="grooming">Grooming</option>
+      </select>
+
+      <label for="Duration">Rental Duration (in days):</label>
+      <input type="number" id="Duration" name="Duration" required>
+
+      <label for="customerName">Your Name:</label>
+      <input type="text" id="customerName" name="customerName" required>
+
+      <button type="submit">Registration</button>
+    </form>
+  </section>
+
+  <!-- Your page content goes here -->
+
+</body>
+</html>

@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<link rel="stylesheet" href="Registrasi.css">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=div, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="../Style/Registrasi.css">
+	<link rel="icon" href="../Source/PetRent.png">
 </head>
+
 <body>
-	<div class="main">
+	<div class="container">
 		<input type="checkbox" id="chk" aria-hidden="true">
+	<div class="registrationForm">
+		<form id="registerForm">
+		<label for="chk" aria-hidden="true">Sign Up</label>
+			<input type="email" id="regEmail" name="email"placeholder="Email" required>
+			<input type="Password" id="regPassword" name="password"placeholder="password" required>
+			<button type="button" onclick="register()">Register</button>
+		</form>
 
-		<div class="signup">
-			<form>
-				<label for="chk" aria-hidden="true">Sign Up</label>
-				<input type="text" name="txt" placeholder="Username" required="">
-				<input type="email" name="email" placeholder="Email" required="">
-				<input type="Password" name="pswd" placeholder="Password" required="">
-				<button>Sign Up</button>
-			</form>
-		</div>
-
-		<div class="login">
-			<form>
-				<label for="chk" aria-hidden="true">Login</label>
-				<input type="email" name="email" placeholder="Email" required="">
-				<input type="Password" name="pswd" placeholder="Password" required="">
-				<button>Login</button>
-			</form>
-		</div>
 	</div>
-	
+	<div class="loginForm">
+		<form id="loginForm">
+        <label for="chk" aria-hidden="true">login</label>
+			<input type="email" id="loginEmail" name="loginEmail" placeholder="Email" required>
+			<input type="password" id="loginPassword" placeholder="password" name="loginPassword" required>
+			<button type="button" onclick="login()">Login</button>
+		</form>
+	</div>
+	</div>
+
+	<script src="../Script/Registrasi.js"></script>
 </body>
+
 </html>

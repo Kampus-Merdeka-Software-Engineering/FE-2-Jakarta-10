@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: url(../Source/bg-payment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.payment-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 2 em;
+    justify-content: center;
+    display: flex;
+}
+
+label {
+    color: #4a4848;
+    font-size: .5 em;
+    justify-content: left;
+    display: flex;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#bankOptions {
+    display: none;
+}
+
+button {
+    background-color: #573b8a;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    background: #6d44b8;
+}
