@@ -19,6 +19,7 @@ body{
   background: url(../Source/bee-web.jpg) no-repeat center / cover;
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
+  transition: ease-in-out 0.5s;
 }
 
 #chk{
