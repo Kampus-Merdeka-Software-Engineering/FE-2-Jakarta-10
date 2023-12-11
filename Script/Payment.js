@@ -25,7 +25,7 @@ async function processPayment() {
     if (data.success) {
       // Redirect to the next page or perform other actions
       alert('Payment successful! Redirecting to the next page.');
-      window.location.href = '/Page/MainPage.html';
+      window.location.href = '../index.html';
     } else {
       alert('Payment failed. Please try again.');
     }
