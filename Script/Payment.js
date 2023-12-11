@@ -6,7 +6,7 @@ async function processPayment() {
   const bankType = document.getElementById("bankType").value;
 
   try {
-    const response = await fetch('http://localhost:20498', {
+    const response = await fetch('http://localhost:3000/process/payment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
