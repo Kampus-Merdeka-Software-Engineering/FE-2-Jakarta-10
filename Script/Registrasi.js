@@ -3,7 +3,7 @@ async function register() {
     const password = document.getElementById('regPassword').value;
 
     try {
-        const response = await fetch('http://localhost:20498/auth/register', {
+        const response = await fetch('http://localhost:20498', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
