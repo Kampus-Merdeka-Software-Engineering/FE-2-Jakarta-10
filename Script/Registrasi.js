@@ -3,7 +3,7 @@ async function register() {
     const password = document.getElementById('regPassword').value;
 
     try {
-        const response = await fetch('http://localhost:20498/auth/register', {
+        const response = await fetch('http://localhost:27102/auth/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ async function login() {
     const password = document.getElementById('loginPassword').value;
 
     try {
-        const response = await fetch('http://localhost:20498/auth/login', {
+        const response = await fetch('http://localhost:27102/auth/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
