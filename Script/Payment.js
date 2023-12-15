@@ -6,7 +6,7 @@ async function processPayment() {
   const bankType = document.getElementById("bankType").value;
 
   try {
-    const response = await fetch('http://localhost:22564/process/payment', {
+    const response = await fetch('https://gray-lively-barnacle.cyclic.app/process/payment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
